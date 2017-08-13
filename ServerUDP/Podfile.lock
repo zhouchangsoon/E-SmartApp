@@ -1,0 +1,34 @@
+PODS:
+  - AVOSCloud (5.0.1)
+  - AVOSCloudCrashReporting (5.0.1):
+    - AVOSCloud (= 5.0.1)
+    - AVOSCloudCrashReporting/_ARC (= 5.0.1)
+    - AVOSCloudCrashReporting/_NOARC (= 5.0.1)
+  - AVOSCloudCrashReporting/_ARC (5.0.1):
+    - AVOSCloud (= 5.0.1)
+    - AVOSCloudCrashReporting/_NOARC (= 5.0.1)
+  - AVOSCloudCrashReporting/_NOARC (5.0.1):
+    - AVOSCloud (= 5.0.1)
+  - AVOSCloudIM (5.0.1):
+    - AVOSCloud (= 5.0.1)
+    - AVOSCloudIM/_ARC (= 5.0.1)
+    - AVOSCloudIM/_NOARC (= 5.0.1)
+  - AVOSCloudIM/_ARC (5.0.1):
+    - AVOSCloud (= 5.0.1)
+    - AVOSCloudIM/_NOARC (= 5.0.1)
+  - AVOSCloudIM/_NOARC (5.0.1):
+    - AVOSCloud (= 5.0.1)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudCrashReporting
+  - AVOSCloudIM
+
+SPEC CHECKSUMS:
+  AVOSCloud: 3e0a9813852d923966a8af59d6e6d42517d3abe5
+  AVOSCloudCrashReporting: 9bc336b7e333892f0408dab7ee7197490790aebf
+  AVOSCloudIM: ecdc45197df9dcb3d1b7e7569dbc904ac5233afc
+
+PODFILE CHECKSUM: 47222efc8eb3036d170516b640ca8de9925c8fc9
+
+COCOAPODS: 1.2.1

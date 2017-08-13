@@ -1,0 +1,9 @@
+use_frameworks!     #LeanCloud SDK 只能作为动态框架集成到项目中，而不是静态库
+
+target ’ServerUDP’ do
+pod 'AVOSCloud'               # 数据存储、短信、云引擎调用等基础服务模块
+pod 'AVOSCloudIM'             # 实时通信模块
+pod 'AVOSCloudCrashReporting' # 错误报告模块
+
+end
+
